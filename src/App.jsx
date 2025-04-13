@@ -54,18 +54,19 @@ export default function App() {
           </button>
         </a>
       </p>
+
+      <h2 style={{ marginTop: '3rem' }}>🖼 Визуальный макет сайта:</h2>
+      <p>Пример дизайна сайта для презентаций:</p>
+      <img
+        src="https://i.imgur.com/fv2g51S.png"
+        alt="Макет сайта BCGKZ"
+        style={{
+          width: '100%',
+          borderRadius: '12px',
+          marginTop: '1rem',
+          boxShadow: '0 2px 12px rgba(0,0,0,0.1)'
+        }}
+      />
     </div>
- <h2 style={{ marginTop: '3rem' }}>🖼 Визуальный макет сайта:</h2>
-<p>Вот как будет выглядеть будущий полноценный сайт с оформлением:</p>
-<img
-  src="https://i.imgur.com/yourimage.png" // заменю ссылку после загрузки
-  alt="Макет сайта BCGKZ"
-  style={{
-    width: '100%',
-    borderRadius: '12px',
-    marginTop: '1rem',
-    boxShadow: '0 2px 12px rgba(0,0,0,0.1)'
-  }}
-/>
- )
+  )
 }
